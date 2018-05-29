@@ -1,0 +1,290 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	text-align: center;
+	height: 125px;
+}
+.logo img{
+	margin-top: 30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding: 0 30px;
+	line-height:45px;
+	background: url(../images/line.png) no-repeat right center;
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	font-size: 14px;
+
+}
+.one a{
+	border-bottom: 3px solid #1e50ae;
+}
+.nav li:last-child{
+	background: none;
+}
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url(../images/banner.png) no-repeat center center;
+}
+.serve{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+}
+.serve h3{
+	text-align: center;
+	font-size: 34px;
+	font-family: '微软雅黑';
+}
+.serve p{
+	text-align: center;
+	display: block;
+	font-size: 20px;
+}
+.serve h4{
+	text-align: center;
+}
+.serve img{
+	text-align: center;
+}
+.serve>ul>li{
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.shang{
+	height: 370px;
+}
+.xia{
+	height: 251px;
+}
+.serve>ul>li li{
+	color: #aaaaaa;
+	background: url('../images/biaoji.png') no-repeat left center;
+	padding:0 15px;
+}
+.serve>ul>li ul{
+	margin-left: 40px;
+}
+.serve>ul>li p{
+	margin-left: 40px;
+}
+.solution{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	height: 712px;
+	width: 100%;
+	background: url('../images/solution.png') no-repeat center center;
+}
+.solution h3{
+	font-size: 34px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+.solution p{
+	font-size: 20px;
+	font-family: 'Aparajita';
+}
+.li{
+	width: 1200px;
+	height: 420px;
+	margin: 50px 230px auto;
+}
+.li div{
+	text-align: center;
+	float: left;
+	margin-right: 52px;
+}
+.solution button{
+	width: 230px;
+	height: 50px;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	padding-bottom: 50px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.information{
+	width: 1200px;
+	height: 913px;
+	margin: 0 auto;
+}
+.information div{
+	float: left;
+}
+.information h3{
+	font-size: 34px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+.information p{
+	text-align: center;
+	display: block;
+	font-size: 20px;
+}
+.you1 button{
+	width: 140px;
+	height: 46px;
+	background: none;
+	border: 1px solid #1e50ae;
+	color: #1e50ae;
+	text-align: center;
+	border-radius: 23px;
+}
+.daduan{
+	padding-top: 28px;	
+}
+.t1{
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+.zuo2{
+	font-size: 16px;
+	color: #8f8f8f;
+	margin-top: 20px;
+	margin-left: 75px;
+	margin-right: 30px;
+}
+.you2{
+	font-size: 16px;
+	color: #8f8f8f;
+	margin-top: 157px;
+	margin-right: 30px;
+} 
+.xuxian li{
+	border-bottom: 1px dotted #8f8f8f;
+	line-height: 46px;
+}
+.information div li:last-child{
+	border-bottom: none;
+}
+.zzrz{
+	width: 1560px;
+	height: 100px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	text-align: center;
+}
+.zzrz ul li{
+	float: left;
+}
+.zzrz ul{
+	text-align: center;
+}
+.p{
+	margin: 27px 0px 33px 0px;
+	width: 120px;
+	height: 100px;
+}
+.duanluo{
+	width: 180px;
+	height: 100px;
+	margin: 27px 0px 43px 0;
+	text-align: left;
+}
+.one{
+	font-size: 19px;
+}
+.daohang{
+	width: 1560px;
+	height: 385px;
+	margin: 0 auto;
+	background: url('../images/daohang.png') no-repeat center center;
+}
+.heng{
+	float: left;
+	color: #fff;
+	margin-right: 99px;
+	font-size: 14px;
+}
+.dao1{
+	width: 700px;
+	height: 217px;
+	margin: 0 auto;
+	float: left;
+}
+.tou{
+	font-size: 19px;
+	margin-bottom: 30px;
+}.heng li{
+	margin-bottom: 20px;
+}
+.dao2{
+	width: 250px;
+	height: 217px;
+	margin: 0 auto;
+	float: left;
+}
+.dao2 ul li{
+	float: left;
+}
+.erweima{
+	margin-right: 32px;
+}
+.dao2 ul p{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.dao2 .shuxian{
+	border-right: 1px solid #9c9c9c;
+	margin-right: 25px;
+}
+.dao3 ul li{
+	color:#fff;
+	margin-bottom: 30px;
+}
+.qq{
+	list-style: url('../images/qq.png') inside;
+	margin-left: 0px;
+}
+.weixin{
+	list-style: url('../images/weixin.png') inside;
+}
+.dao3{
+	border-bottom: 1px solid #9c9c9c;
+}
+.dao4{
+	width: 1200px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-bottom: 0;
+}
+.dao4 ul li{
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 20px;
+	background: url('../images/line.png') no-repeat right center;
+}
+.dao5{
+	color: #fff;
+	text-align: center;
+}
